@@ -118,3 +118,21 @@ ggplot(ChickWeight, aes(x=Time, y=weight, color = Diet)) +
   
   2. From the graphs, which chick(s) may have died during the course of the experiment?
           Data seemingly missing before experiment end date (the plotting of weights for some individual chicks end prior to day 20) for chicks 18, 16, 15, and 44 suggest those chicks may have died during the experiment.
+
+## Marks
+
+Chick 8 may also have died.
+You've changed the colour of `geom_smooth` to black rather than add a `stat_summary` layer.
+
+time-versus-weigh-with-mean: 1
+time-versus-weigh-with-mean-by-diet: 1
+time-versus-weigh-with-mean-facetted-by-diet: 1
+time-versus-weigh-with-mean-facetted-by-diet-with-mean-and-se: -
+time-versus-weigh-with-mean-facetted-by-diet-labelled: 1
+time-versus-weigh-with-mean-facetted-by-diet-labelled-with-title: 1
+time-versus-weigh-with-mean-facetted-by-chick-labelled: 1
+
+Q1: 1
+Q2: -
+
+Total: 7/10
